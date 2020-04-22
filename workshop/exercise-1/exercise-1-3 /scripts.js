@@ -1,7 +1,22 @@
+
+document.body.style.background = "rgba(246,187,33, .8) url('./images/yellow-umbrella.jpg') no-repeat";
+document.body.style.fontFamily = "Playfair Display', serif";
+document.body.style.backgroundSize = "100%";
+// get the element that already exists in the html
+const box1 = document.getElementById("main");
+box1.style.background = "#fafafa";
+box1.style.borderRadius = "4px";
+box1.style.minWidth = "320px";
+box1.style.maxWidth = "320px";
+box1.style.padding = "25px";
+box1.style.margin = "30px";
+// create the h1 element
 const header = document.createElement('h1');
 header.innerText = 'The best How I Met Your Mother episode (according to fans)';
 document.querySelector('#main').appendChild(header);
-
+header.style.fontFamily = "'Open Sans', sans-serif";
+header.style.textAlign = "center";
+// create the p element
 const par1 = document.createElement('p');
 par1.innerText = 'As impossible as it seems to name just 1 of the 208 legendary episodes as the “best”, the fans have spoken and the highest rated episode is… wait for it…';
 document.getElementById('main').appendChild(par1);
@@ -32,8 +47,13 @@ source.innerText = 'Source';
 source.setAttribute('href', 'https://himym2017.wordpress.com/2017/03/25/the-best-himym-episode-according-to-fans/');
 document.getElementById('main').appendChild(source);
 
-const look = document.createElement('link');
-look.setAttribute('rel', 'stylesheet');
-look.setAttribute('href', './styles.css');
-document.querySelector('head').appendChild(look);
+
+
+
+
+
+
+
+
+
 

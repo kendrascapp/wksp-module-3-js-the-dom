@@ -14,28 +14,28 @@ body {
     padding: 4px 32px 32px;
 }
 
-.header {
+h1, h2 {
     font-family: 'Open Sans', sans-serif;
     text-align: center; 
 }
 
-.subtitle {
+h2 {
     text-align: left;
 }
 
-.paragraph {
+p {
     font-size: 17px;
     line-height: 1.5em;
 }
 
-.pic {
+img {
     border: #fafafa;
     border-radius: 4px;
     box-shadow: 4px 4px 14px rgba(128, 128, 128, .4);
     width: 100%;
 }
 
-.source {
+a {
     color: #174E7C;
     display: block;
     font-weight: 700;
